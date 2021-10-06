@@ -1,3 +1,6 @@
+hello, my name is Joyce. 
+
+
 #MY VISION
 
 my vision for this bioinformatics internship is:
