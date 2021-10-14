@@ -16,4 +16,4 @@ my vision for this bioinformatics internship is:
 6. to lay a good foundation for my career progression in bioinformatics
 
 7. To nurture my ambition to become a competent bioinformatician
-[purpose](https://github.com/WANGARIJOYCE/joyce_Bioinformatics-internship/blob/main/README.md)
+[purpose](https://github.com/WANGARIJOYCE/joyce_Bioinformatics-internship/blob/main/PURPOSE%20ROADMAP.md)
