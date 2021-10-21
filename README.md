@@ -1,7 +1,7 @@
 hello, my name is Joyce Wangari. 
 
 
-#MY VISION
+# MY VISION
 
 my vision for this bioinformatics internship is:
 
