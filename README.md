@@ -12,4 +12,4 @@ To Learn proactively,to actively partcipate in the mini projects  and collaborat
 
 
 # Purpose Roadmap
-[Here](url) is a link to my purpose roadmap for this internship.
+[Here](https://github.com/Wangari-Joyce/Joyce_bioinformatics_internship/issues/4) is a link to my purpose roadmap for this internship.
