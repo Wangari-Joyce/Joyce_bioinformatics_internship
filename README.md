@@ -1,19 +1,15 @@
-hello, my name is Joyce Wangari. 
+# Introduction
+Hello,:wave:  my name is Joyce Wangari Wangombe. This repository outlines my journey, learning experiences and accomplishments during the 4 months Bioinformatics Mentorship and incubation program at ICIPE.
 
 
-# MY VISION
+# Vision
 
-my vision for this bioinformatics internship is:
+To develop technical skills in bioinformatics inorder to become a competent Bioinformatician and contribute positively to improving Human lives  by accelerating breakthroughs in Genomics Research. 
 
-1. to develop technical skills in bioinformatics, such as learning the use of different softwares to be able to understand, analyse and interprete data relating to genomics
 
-2. to develop soft skills such as writing and presentation skills
+# Mission
+To Learn proactively,to actively partcipate in the mini projects  and collaborate effectively with other bioinformaticians at ICIPE.
 
-3. to identify my areas of interest in bioinformatics and explore such areas proactively
 
-4. to participate in projects and collaborate effectively with other bioinformaticians
-
-6. to lay a good foundation for my career progression in bioinformatics
-
-7. To nurture my ambition to become a competent bioinformatician
-[purpose](https://github.com/WANGARIJOYCE/joyce_Bioinformatics-internship/blob/main/PURPOSE%20ROADMAP.md)
+# Purpose Roadmap
+[Here](url) is a link to my purpose roadmap for this internship.
