@@ -1,39 +1,65 @@
 # Internship Report
 ## Introduction 
-This is a report of my internship journey in the EANBiT Bioinformatics and Incubation and Mentorship programme at ICIPE which began on 6/10/2021 to 31/01/2022. The aim of this programme is to have well trained bioinformatcians to support genomics research The internship involves a one month rigorous training involving both technical and soft skills learning after which one is required to reproduce a scientific paper to enhance the skills learnt and also to prepare for the mini-project. The mini-project provides hands on experience and enhances knowledge and skill retention,The mini-project also involves weekly code reviews to review progress and to also be guided on the project.
+This is a report of my internship journey in the EANBiT Bioinformatics and Incubation and Mentorship programme at ICIPE which began on 6/10/2021 to 31/01/2022. The aim of this programme is to have well trained bioinformatcians to support genomics research. The internship involves a one month rigorous training involving both technical and soft skills learning, after which works collaboratively to reproduces a scientific paper to enhance the skills learnt and also to prepare for the mini-project. The mini-project provides hands on experience and enhances knowledge and skill retention.The mini-project also involves weekly code reviews to review progress and to also be guided on the project.
 
 ## Objectives
 
 
 
 ## Training and skills learnt
-1. Purpose Roadmap 
-In the begining of the internship i learnt how to write a [purpose roadmap](url) to outline what i hoped to achieve to by the in the four months of internship. This kept me motivated and  focused on my goals. In retrospect, i have achieved almost everything that i had purposed to do.
+ ### Purpose Roadmap 
+In the begining of the internship i learnt how to write a [purpose roadmap](url) to outline what i hoped to achieve to by the end of the four months of internship. This has kept me motivated and  focused on my goals. In retrospect, i have achieved most of the things that i had purposed to do.
 
 
 
-3. Using Git and Github
+ ### Using Git and Github
 Git is a version control system that helps keep track of history of the the things one is working on
 GitHub is a web based service for version control and online collaboration.
-I used Git and GitHub in creating and managing our projects, documenting codes, writing to do lists and working collaboratively in the projects.
+I used Git and GitHub in creating and managing our projects, documenting codes, writing to do lists and working collaboratively in the projects. [Here](url) is a list of activities that i was involved in during the four months.
 
 
 
-5. Unix overview
-I learnt a wide range of commands to navigate through the command line, from using simple commands to writing complex scripts in bash.
-Having used bash every single day from when we were reproducing the scientific paper and in the mini-project has made it 
+### Unix overview
+I have learnt a wide range of commands to navigate through the command line, from using simple commands to writing complex scripts in bash;the command line language.
+Bash is useful in automating repetitive tasks and combining smaller tasks into larger ones.
+i used bash extensively when reproducing the scientific paper and in the mini-project and this has made using bash easy.
 
-7. introduction to workflow languages and containerisation
-8. Introduction to bioinformatics Databases and gene ontology
-9. Introduction to Genomics
-10. Python programming
-11. Introduction to R
-12. Phylogenetics
-13. Machine learning for genomics
-14. Reproducing a scientific paper
-15. Journal club presentation
-16. Mini-project
-17. Soft skills 
+### Using the HPC
+Genomics analysis involve processing huge amounts of data that are too much for a single computer to handle. High performance computing(HPC) helps overcome this challenge. It helps in processing huge amount of data at high speeds and provide more storage.
+During the internship i have had access to the HPC at ICIPE where i have done most of the project's work.
+i have learnt various commands to navigate through the nodes and to run different tasks.
+
+
+
+### Introduction to workflows and package management
+Workflows are tools that are used to automate bioinformatics analysis and  are useful in enhancing reproducibility.
+Workflows simplify pipeline development,handling software installations and versions and the fact that the can be ran on different computing platforms enables portability and sharing, hence reproducibility of bioinformatics analyses.
+i have learnt about workflows such as nextflow and snakemake,package management tools such conda and containers such as docker and singularity.
+Using Nextflow in our mini-project has enhanced my understanding of this workflow language. i have learnt how to write and edit nextflow scripts and running different pipelines. 
+
+ 
+### Foundational knowledge in bioinformatics
+i have learnt about bioinformatics resources such NCBI and EMBL-EBI and bioinformatics databases and tools 
+
+### Introduction to Genomics
+i learnt about the various sequencing technologies such as Sanger sequencing,Illumina sequencing, oxford nanopore technology. 
+### Python programming
+
+### Introduction to R
+
+### Phylogenetics
+
+### Machine learning for genomics
+
+### Reproducing a scientific paper
+
+### Journal club presentation
+During the internship we have had biweekly journal club presentations where one presents a scientific paper on their area of interests.
+This has had me develop a culture of reading scientific papers, and also enhanced my communication and presentation skills.
+
+### Mini-project
+
+### Soft skills 
     - Leadership skills
     - Communication and presentation  skills
     - Giving feedback and conflict resolution 
