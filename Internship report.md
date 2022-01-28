@@ -12,21 +12,28 @@ In the begining of the internship i learnt how to write a [purpose roadmap](url)
 
 
 
-3. Using git and github
+3. Using Git and Github
+Git is a version control system that helps keep track of history of the the things one is working on
+GitHub is a web based service for version control and online collaboration.
+I used Git and GitHub in creating and managing our projects, documenting codes, writing to do lists and working collaboratively in the projects.
+
 
 
 5. Unix overview
-6. introduction to workflow languages and containerisation
-7. Introduction to bioinformatics Databases and gene ontology
-8. Introduction to Genomics
-9. Python programming
-10. Introduction to R
-11. Phylogenetics
-12. Machine learning for genomics
-13. Reproducing a scientific paper
-14. Journal club presentation
-15. Mini-project
-16. Soft skills 
+I learnt a wide range of commands to navigate through the command line, from using simple commands to writing complex scripts in bash.
+Having used bash every single day from when we were reproducing the scientific paper and in the mini-project has made it 
+
+7. introduction to workflow languages and containerisation
+8. Introduction to bioinformatics Databases and gene ontology
+9. Introduction to Genomics
+10. Python programming
+11. Introduction to R
+12. Phylogenetics
+13. Machine learning for genomics
+14. Reproducing a scientific paper
+15. Journal club presentation
+16. Mini-project
+17. Soft skills 
     - Leadership skills
     - Communication and presentation  skills
     - Giving feedback and conflict resolution 
