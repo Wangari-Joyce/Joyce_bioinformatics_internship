@@ -6,6 +6,7 @@ This is a report of my internship journey in the EANBiT Bioinformatics and Incub
 
 
 
+
 ## Training and skills learnt
  ### Purpose Roadmap 
 In the begining of the internship i learnt how to write a [purpose roadmap](url) to outline what i hoped to achieve to by the end of the four months of internship. This has kept me motivated and  focused on my goals. In retrospect, i have achieved most of the things that i had purposed to do.
@@ -51,10 +52,6 @@ i learnt about the various sequencing technologies such as Sanger sequencing,Ill
 
 ### Python programming
 
-
-
-### Introduction to R
-
 ### Phylogenetics
 
 ### Machine learning for genomics
@@ -66,8 +63,12 @@ During the internship we have had biweekly journal club presentations where one 
 This has had me develop a culture of reading scientific papers, and also enhanced my communication and presentation skills.
 
 ### Mini-project
+Our mini-project was focused on assessing different variant calling pipelines identify great ones and expand where there are gaps.
+We assessed the different pipelines and were to to automate fully the mbbu variant calling pipeline.
+This project helped to understand Nextflow a workflow language, to use bash the commandline language extensively, to use the HPC, to use various bioinformatics tools, to collaborate effectively, it also helped me improve my communication and presentation skills.
 
 ### Soft skills 
+In addition to the extensive technical skills that i have learnt, this internship program also entailed learning essential soft skills which included:
     - Leadership skills
     - Communication and presentation  skills
     - Giving feedback and conflict resolution 
@@ -75,6 +76,8 @@ This has had me develop a culture of reading scientific papers, and also enhance
     - Writing competitive applications
  
  ## Conclusion
+ This internship program, has equipped me with  the necessary skills and has laid a great foundation to further my career in bioinformatics.I am now more motivated and confident to pursue my career further.
+ I accord profound gratitude to the entire bioinformatics team for their great dedication to teach, guide and mentor us through out the four months internship journey.
  
  ## Recommendations
  
