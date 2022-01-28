@@ -39,11 +39,19 @@ Using Nextflow in our mini-project has enhanced my understanding of this workflo
 
  
 ### Foundational knowledge in bioinformatics
+Bioinformatics involves use of computational approaches to biological data to organize analyze and interprete such data. There is a vast range of bioinformatics tools, resources and databases that are available
+Databases are structured collection of records stored in a computer system. Genomic databases store DNA or protein sequences as well as annotated information about these sequences.
+Bioinformatics tools are programs used to analyze these sequences.
 i have learnt about bioinformatics resources such NCBI and EMBL-EBI and bioinformatics databases and tools 
 
 ### Introduction to Genomics
-i learnt about the various sequencing technologies such as Sanger sequencing,Illumina sequencing, oxford nanopore technology. 
+i learnt about the various sequencing technologies such as Sanger sequencing,Illumina sequencing, oxford nanopore technology.
+
+
+
 ### Python programming
+
+
 
 ### Introduction to R
 
