@@ -3,10 +3,10 @@
 This is a report of my internship journey in the EANBiT Bioinformatics and Incubation and Mentorship programme at ICIPE which began on 6/10/2021 to 31/01/2022. The aim of this programme is to have well trained bioinformatcians to support genomics research. The internship involves a one month rigorous training involving both technical and soft skills learning, after which works collaboratively to reproduces a scientific paper to enhance the skills learnt and also to prepare for the mini-project. The mini-project provides hands on experience and enhances knowledge and skill retention.The mini-project also involves weekly code reviews to review progress and to also be guided on the project.
 
 ## Objectives
-To learn how to analyse genomics data using different programming languages and different bioinformatics tools
-To collaborate and network effectively
-To gain soft skills such communication and presentation skills
-To complete the mini-project as scheduled
+1. To learn how to analyse genomics data using different programming languages and different bioinformatics tools
+2. To collaborate and network effectively
+3. To gain soft skills such communication and presentation skills
+4. To complete the mini-project as scheduled
 
 
 
