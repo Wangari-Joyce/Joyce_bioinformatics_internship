@@ -3,6 +3,10 @@
 This is a report of my internship journey in the EANBiT Bioinformatics and Incubation and Mentorship programme at ICIPE which began on 6/10/2021 to 31/01/2022. The aim of this programme is to have well trained bioinformatcians to support genomics research. The internship involves a one month rigorous training involving both technical and soft skills learning, after which works collaboratively to reproduces a scientific paper to enhance the skills learnt and also to prepare for the mini-project. The mini-project provides hands on experience and enhances knowledge and skill retention.The mini-project also involves weekly code reviews to review progress and to also be guided on the project.
 
 ## Objectives
+To learn how to analyse genomics data using different programming languages and different bioinformatics tools
+To collaborate and network effectively
+To gain soft skills such communication and presentation skills
+To complete the mini-project as scheduled
 
 
 
@@ -46,17 +50,28 @@ Bioinformatics tools are programs used to analyze these sequences.
 i have learnt about bioinformatics resources such NCBI and EMBL-EBI and bioinformatics databases and tools 
 
 ### Introduction to Genomics
-i learnt about the various sequencing technologies such as Sanger sequencing,Illumina sequencing, oxford nanopore technology.
+i have learnt about the various sequencing technologies such as Sanger sequencing,Illumina sequencing, oxford nanopore technology, and also various NGS file formats
 
 
 
 ### Python programming
+I have learnt to use jupyter notebooks which are useful in documenting the python codes.
+The python skills that i have acquired include:
+- Basic data types and operations
+- Data structures list tuples and dictionaries
+- Functions and classes 
+- Reading files and importing modules
+- Control statements
+
+
 
 ### Phylogenetics
-
-### Machine learning for genomics
+I learnt various methods for constructing phylogenetic trees such as UPGMA, neighbour joining, maximum parsimony and maximum likehood methods and how to interprete phylogenetic trees. This knowledge was important in reproducing the scientific paper.
 
 ### Reproducing a scientific paper
+We reproduced a scientfic paper: Global Outbreaks and spread of a chikungunya virus variant carrying mutations which may increase fitness for Aedes aegypti: Revelations from the 2016 Mandera Kenya Outbreak. 
+[Here](url) is link to the repository for this work
+i learnt how to use different phylogenetic tools such as tempest, mafft, phyml and raxml
 
 ### Journal club presentation
 During the internship we have had biweekly journal club presentations where one presents a scientific paper on their area of interests.
@@ -66,6 +81,8 @@ This has had me develop a culture of reading scientific papers, and also enhance
 Our mini-project was focused on assessing different variant calling pipelines identify great ones and expand where there are gaps.
 We assessed the different pipelines and were to to automate fully the mbbu variant calling pipeline.
 This project helped to understand Nextflow a workflow language, to use bash the commandline language extensively, to use the HPC, to use various bioinformatics tools, to collaborate effectively, it also helped me improve my communication and presentation skills.
+[Here](url) is link to the repository for this mini-project
+
 
 ### Soft skills 
 In addition to the extensive technical skills that i have learnt, this internship program also entailed learning essential soft skills which included:
@@ -80,5 +97,5 @@ In addition to the extensive technical skills that i have learnt, this internshi
  I accord profound gratitude to the entire bioinformatics team for their great dedication to teach, guide and mentor us through out the four months internship journey.
  
  ## Recommendations
- 
+ - To have the mini-project introduced earlier in the internship so that one familiarises with the topic and with the skills required before the actual time for starting the mini-project
 
