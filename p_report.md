@@ -24,38 +24,62 @@ that we modified and successfully ran with Ecoli and Trypanasome data
 
 
 
-## INTRODUCTION
+## Introduction
 Variant calling intuition
 1. The starting point is the raw reads
-2. Align the sequences to a reference genome,
+2. Align the sequences to a reference genome
 3. Identify where the aligned reads differ from the reference genome
+4. Filter and annotate the variants
 
  ### A typical variant calling workflow
  
+ ![workflow](https://github.com/mbbu/Assessing-Variant-Calling-Pipelines/blob/main/typical-workflow.png?raw=true)
 
 
 
 
 
-## Project achievements 
-We managed to test the following pipelines during the project duration:
+
+## Variant calling pipelines
+We tested the following pipelines:
    - [nf-core/sarek](https://github.com/nf-core/sarek)
    - [CalliNGS-NF](https://github.com/CRG-CNAG/CalliNGS-NF)
    - [h3avarcall](https://github.com/h3abionet/h3avarcall)
    -  [nf-core/viralrecon](https://github.com/nf-core/viralrecon)
    -  [mbbu/variant-calling-pipeline](https://github.com/mbbu/variant-calling-pipeline)
-   -   [variant-calling-pipeline-gatk4](https://github.com/gencorefacility/variant-calling-pipeline-gatk4)
+   -  [variant-calling-pipeline-gatk4](https://github.com/gencorefacility/variant-calling-pipeline-gatk4)
 
-## Project scope
-We managed to provide a summary of the work we did on every pipeline on the basis of what we did and what we managede to achieve with each pipeline.
-Below is a documentation of individual pipelines in accordance to our project objectives, providing detailed achievements for each and as well as recommendation for each.    
+
+
+
+
+## Methodology for assessing the pipelines
+![methodology](https://github.com/mbbu/Assessing-Variant-Calling-Pipelines/blob/main/methodology.png?raw=true)
+
+
+
+
+
+
+## Results   
 
 
   ### [nf-core/sarek](https://github.com/nf-core/sarek)
+  
+ - Sarek is a workflow designed to detect germline or somaticvariants on whole genome or targeted sequencing data.
+ 
+ - It was initially designed for Human, and Mouse.
+ - It can work on any species with a reference genome. 
+ - Sarek can also handle tumour / normal pairs and could include additional relapses.
+  
+  
+  
+  
+  
   Pros | Cons
   -------------- | ------------------------
-  Great effort put in the work by the team to provide detailed documentation on how to use the pipeline | There is however limited information on how to create the input  ```TSV``` file, we encountered an erro of lack of files in the directories provided and now errors with row formating
-  The pipeline and many other pipelines work effortlessly with the test dataset | There is quite more to do to run the pipeline with your own dataset
+  Detailed documentation on how to use the pipeline | Limited information on how to create the input  ```TSV``` file, we encountered an erro of lack of files in the directories provided and now errors with row formating
+  The pipeline rans easily with the test dataset provided | There is quite more to do to run the pipeline with your own dataset
   The pipeline was designed initially for Human and Mouse WGS data analysis, hence more inclined to analysing verterbrate sequence data | The default purpose  makes it tricky to use in analyzing invertebrate data, for our case pathogen and is=nsect data
   
   **NOTE:** ```nf-core pipelines involve some good work done to ensure ease of reproduction. This is supported by extensive documentation of the work and a big community connected via a slack channel where you can get most if not all of the possible errors with the pipeline attended to. Also, the pipeline is regularly maintained, thus you are sure everything is up to date.```    
@@ -173,6 +197,19 @@ We intend to try it on an RNAseq data for better reporting.```
   GENCOREFACILTY VARIANT CALLING PIPELINE | hard | WGS | pathogen |     |  |   no  | yes | no |  |
   MBBU VARIANT CALLING PIPELINE | easy | WGS | insect and pathogen |   | yes  | yes | yes | yes |   |
   
+  
+  
+  ## MBBU PIPELINE MODIFICATION
+  
+  
+  ## DISCUSSION
+  
+  
+  
+  ## RECOMMENDATIONS 
+  
+  ## REFERENCES
+
   
   
   
