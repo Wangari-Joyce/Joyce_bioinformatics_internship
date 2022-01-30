@@ -159,39 +159,20 @@ Pipeline | ease of use with test data | type of input data | initially designed 
 
  
 
- ### [variant-calling-pipeline-gatk4](https://github.com/gencorefacility/variant-calling-pipeline-gatk4) 
- 
- 
- 
- 
- Pros | Cons   
- ----- | ------
- The pipeline was built initially for variant analysis of *Plasmodium falciparum* and *Plasmodium vivax* sequence data something we were really forward to finding | The pipeline however assumes a number os steps that are vital for NGS sequence data prior to any type of analysis
- Well documented and easy to follow through steps of running the script |  You fisrt need to have the docker image pulled to be able to run the pipenine. The pipeline also had a an error with the flag for running it using the docker image. The initial error is with invalid ```-with``` flag
- 
- 
- Rinning the pipeline;
-  
-      docker pull gencorefacility/variant-calling-pipeline-gatk4 \
-      nextflow run gencorefacility/variant-calling-pipeline-gatk4 -with-docker gencorefacility/variant-calling-pipeline-gatk4 -with docker  
-     
-**WARNING:** Error running pipeline     
-![invalid flag](https://github.com/mbbu/Assessing-Variant-Calling-Pipelines/blob/main/Files/invalid%20flag.png)    
+ ### [variant-calling-pipeline-gatk4](https://github.com/gencorefacility/variant-calling-pipeline-gatk4)
+ - The pipeline was built initially for variant analysis of *Plasmodium falciparum* and *Plasmodium vivax*, 
+ - Well documented and easy to follow through steps of running the pipeline
+ - This pipeline is not regularly maintained and updated
+ - It is also not implemented in DSL2
+ - The pipeline however assumes quality check steps that are vital for NGS sequence data prior to any type of analysis
+ - Due to the interest of time we did not finishing debugging the [error](https://github.com/mbbu/Assessing-Variant-Calling Pipelines/blob/main/Files/invalid%20flag.png) encountered while running this pipeline
 
- **Right script:** Run the pipeline using the following ```--with``` flag
- 
-      docker pull gencorefacility/variant-calling-pipeline-gatk4 \
-      nextflow run gencorefacility/variant-calling-pipeline-gatk4 -with-docker gencorefacility/variant-calling-pipeline-gatk4 --with docker    
-        
-  
   **NOTE:** You will need to do the following important steps prior to running the pipeline with your dataset    
     - You will need to ```Index``` your reference genome prior to launching the pipeline
     - You will need to perform ```sequence quality check``` 
     - You will need to perform ```adapter trimming``` in case your reads have trailing sequence ```sequence adapters```
     
- **Persistent error:** We have not managed to figure out the following error with this pipeline
-  ![gencore pipeline error](https://github.com/mbbu/Assessing-Variant-Calling-Pipelines/blob/main/gencore%20error.png) 
-  
+ **Persistent error:** We have not managed to figure out the following [error](https://github.com/mbbu/Assessing-Variant-Calling-         Pipelines/blob/main/gencore%20error.png) with this pipeline
   
   [mbbu/variant-calling-pipeline](https://github.com/mbbu/variant-calling-pipeline)    
   
