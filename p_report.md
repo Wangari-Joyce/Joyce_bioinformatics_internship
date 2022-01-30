@@ -167,16 +167,16 @@ Pipeline | ease of use with test data | type of input data | initially designed 
  - The pipeline however assumes quality check steps that are vital for NGS sequence data prior to any type of analysis
  - Due to the interest of time we did not finishing debugging the [error](https://github.com/mbbu/Assessing-Variant-Calling Pipelines/blob/main/Files/invalid%20flag.png) encountered while running this pipeline
 
-  **NOTE:** You will need to do the following important steps prior to running the pipeline with your dataset    
+  **Things to consider while running this pipeline:** 
+    - You will need to do the following important steps prior to running the pipeline with your dataset    
     - You will need to ```Index``` your reference genome prior to launching the pipeline
     - You will need to perform ```sequence quality check``` 
     - You will need to perform ```adapter trimming``` in case your reads have trailing sequence ```sequence adapters```
     
  **Persistent error:** We have not managed to figure out the following [error](https://github.com/mbbu/Assessing-Variant-Calling-         Pipelines/blob/main/gencore%20error.png) with this pipeline
   
-  [mbbu/variant-calling-pipeline](https://github.com/mbbu/variant-calling-pipeline)    
+  ### [mbbu/variant-calling-pipeline](https://github.com/mbbu/variant-calling-pipeline)    
   
-  **WARNING:** ```The following are some of the insights we managed to figure out with the pipeline and the effort we made to improve the pipeline```
   
   - This is the pipeline that we managed to runn to completion
   - We ran through a couple of errors that we put effort on to make sure the pipeline is fully automated
@@ -216,9 +216,14 @@ Pipeline | ease of use with test data | type of input data | initially designed 
   
   
   ## DISCUSSION/LESSONS LEARNT
+  **Selecting the optimal variant method can depend on the application, organism and sequencing data[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4493402/)**
+    - Before running a variant calling pipeline it is important to understand your data and the type of data required by the pipeline for example, whether it is whole genome sequencing data or RNA-seq data.
+    
+    - It is also important to understand what species the pipeline was initially designed for some may not be compatible with your data. For example,The human reference genome is more than 1000 times larger than microbial genome, humans are diploid and microbial genomes are generally haploid therefore assumptions and statistics used in human variant callers are not optimal for microbial genomes [1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4493402/)
   
   
   ## CHALLENGES
+  - Testing the pipelines and extending gaps within the time given
   
   
   
