@@ -74,7 +74,7 @@ We tested the following pipelines:
  - It can work on any species with a reference genome. 
  - Sarek can also handle tumour / normal pairs and could include additional relapses.
   
-  
+  ### Summary
 Pipeline | ease of use with test data | type of data | initially designed for |fast and easily scalable | use with variety of data | Dsl2 version | use of containers docker and singularity | regularly maintained and updated | scalable to the cloud |ease of use and following documentation| type of variants detected| 
   ----- | ----- | ----- | ----- | ----- | ----- |  ----- | ----- | ----- | ----- | ----- | ----- |
   NF-CORE SAREK | easy  |  WGS   | human and mouse |  _  | pipeline didnot work with our test data|  no    |   yes  |  yes  |  yes  |   hard  |  somatic and germline  |
@@ -105,6 +105,8 @@ Pipeline | ease of use with test data | type of data | initially designed for |f
 Pipeline | ease of use with test data | type of input data | initially designed for |fast and easily scalable | use with variety of data | Dsl2 version | use of containers docker and singularity | regularly maintained and updated | scalable to the cloud |ease of use and following documentation| type of variants detected| 
   ----- | ----- | ----- | ----- | ----- | ----- |  ----- | ----- | ----- | ----- | ----- | ----- |
    CalliNGS-NF| easy  |   RNA-seq  | human |  _  | pipeline was not compatible with our test data |  yes   |   yes  |  yes  |  yes  |   easy  |  somatic  |
+   
+   
 
 
  ### [h3avarcall](https://github.com/h3abionet/h3avarcall)
@@ -136,6 +138,9 @@ Pipeline | ease of use with test data | type of data | initially designed for |f
 Pipeline | ease of use with test data | type of input data | initially designed for |fast and easily scalable | use with variety of data | Dsl2 version | use of containers docker and singularity | regularly maintained and updated | scalable to the cloud |ease of use and following documentation| type of variants detected| 
   ----- | ----- | ----- | ----- | ----- | ----- |  ----- | ----- | ----- | ----- | ----- | ----- |
   nf-core/viralrecon | -  |  viral sequences | covid data|  _  | pipeline was not compatible with our test data |  -   |   yes  |  yes  |  yes  |   hard  | - |
+  
+  
+  
 
 ### [nf-core/rnavar](https://github.com/nf-core/rnavar)
 - nf-core/rnavar is a bioinformatics best-practice pipeline for RNA-Seq variant analysis.
@@ -149,9 +154,15 @@ Pipeline | ease of use with test data | type of input data | initially designed 
 - nf-core/vipr is a bioinformatics best-practice analysis pipeline for assembly and intrahost / low-frequency variant calling for viral samples.
 - This pipeline is archived and no longer in use
 - It has been replaced by nf-core/viralrecon
+
+
+
  
 
- ### [variant-calling-pipeline-gatk4](https://github.com/gencorefacility/variant-calling-pipeline-gatk4)    
+ ### [variant-calling-pipeline-gatk4](https://github.com/gencorefacility/variant-calling-pipeline-gatk4) 
+ 
+ 
+ 
  
  Pros | Cons   
  ----- | ------
@@ -202,6 +213,9 @@ Pipeline | ease of use with test data | type of input data | initially designed 
   Clear pipeline documentation | Since the pipeline was developed to analyse Trypanosome WGS dataset, so most of the parameters were defined fixed to a particular dataset The pipeline was not configured to run with the docker profile, but you have to firt pull the docker image 
   
   
+  ## MBBU PIPELINE MODIFICATION
+  
+  
   ## A summary report for all pipelines
   
   Pipeline | ease of use with test data | type of data | initially designed for |fast and easily scalable | use with variety of data | Dsl2 version | use of containers docker and singularity | regularly maintained and updated | scalable to the cloud | type of variants detected| 
@@ -217,22 +231,33 @@ Pipeline | ease of use with test data | type of input data | initially designed 
   
   
   
-  ## MBBU PIPELINE MODIFICATION
+
   
   
-  ## DISCUSSION
+  ## DISCUSSION/LESSONS LEARNT
+  
+  
+  ## CHALLENGES
+  
   
   
   
   ## RECOMMENDATIONS
+  - scaling of the mbbu pipeline to the cloud
+  - Further testing the MBBU pipeline with a variety of insect and pathogen data
+  - Further testing of [CalliNGS-NF](https://github.com/CRG-CNAG/CalliNGS-NF) with RNA-seq data
+  -  Further testing of Sarek with eukaryotic data
+  
   
   ## REFERENCES
+1. [Best practices for evaluating single nucleotide variant calling method for microbial genomics Nathan D. Olson,1,* Steven P. Lund,2 Rebecca E. Colman,3 Jeffrey T. Foster,4,† Jason W. Sahl,3,4 James M. Schupp,3 Paul Keim,3,4 Jayne B. Morrow,1 Marc L. Salit,1,5 and Justin M. Zook1
+](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4493402/)
 
+
+2. [Best Practices for Benchmarking Germline Small Variant Calls in Human Genomes
+Peter Krusche,1 Len Trigg,2 Paul C. Boutros,3 Christopher E. Mason,4 Francisco M. De La Vega,5 Benjamin L. Moore,1 Mar Gonzalez-Porta,1 Michael A. Eberle,6 Zivana Tezak,7 Samir Lababidi,8 Rebecca Truty,9 George Asimenos,10 Birgit Funke,11 Mark Fleharty,12 Brad A. Chapman,13 Marc Salit,14,* Justin M Zook,15,* and Global Alliance for Genomics and Health Benchmarking Team](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6699627/)
   
-  
-  
-  
-  
+
   
   
   
