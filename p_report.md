@@ -78,31 +78,48 @@ Pipeline | ease of use with test data | type of data | initially designed for |f
   NF-CORE SAREK | easy  |  WGS   | human and mouse |  _  | pipeline didnot work with our test data|  no    |   yes  |  yes  |  yes  |   hard  |  somatic and germline  |
   
   
- However, we never got to run the pipeline on our dataset, not so much to report on the power, functionality among others.```
+ 
  
   
   
  ### [CalliNGS-NF](https://github.com/CRG-CNAG/CalliNGS-NF) 
   
-- This is a Nextflow pipeline for Variant Calling Analysis with NGS RNA-Seq data based on GATK best practices.
+- This is a Nextflow pipeline for Variant Calling Analysis with NGS RNA-Seq data based on GATK best practices
   
-- The RNA sequencing (RNA-seq) data, in additional to the expression information, can be used to obtain somatic variants present in the genes of the analysed organism. 
-- The CalliNGS-NF pipeline processes RNAseq data to obtain small variants(SNVs), single polymorphisms (SNPs) and small INDELs (insertions, deletions). 
+- The RNA sequencing (RNA-seq) data, in additional to the expression information, can be used to obtain somatic variants present in the genes of the analysed organism
+- The CalliNGS-NF pipeline processes RNAseq data to obtain small variants(SNVs), single polymorphisms (SNPs) and small INDELs (insertions, deletions)
+
 - The pipeline is an implementation of the GATK best practices for variant calling on RNAseq
 
-
-Pipeline | ease of use with test data | type of input data | initially designed for |fast and easily scalable | use with variety of data | Dsl2 version | use of containers docker and singularity | regularly maintained and updated | scalable to the cloud |ease of use and following documentation| type of variants detected| 
-  ----- | ----- | ----- | ----- | ----- | ----- |  ----- | ----- | ----- | ----- | ----- | ----- |
-   CalliNGS-NF| easy  |   RNA-seq  | human |  _  | pipeline was not compatible with our test data |  yes   |   yes  |  yes  |  yes  |   easy  |  somatic  |
-
-- This pipeline was easy to use and documentation was short and easy to follow
+- This pipeline was easy to use and the documentation was short and easy to follow
 
 - Due to the limited time we didnot test RNA-seq pipelines
 
 - We recommend this pipeline for further analysis with RNA-seq data
 
 
- ### [h3avarcall](https://github.com/h3abionet/h3avarcall)    
+
+### Summary 
+Pipeline | ease of use with test data | type of input data | initially designed for |fast and easily scalable | use with variety of data | Dsl2 version | use of containers docker and singularity | regularly maintained and updated | scalable to the cloud |ease of use and following documentation| type of variants detected| 
+  ----- | ----- | ----- | ----- | ----- | ----- |  ----- | ----- | ----- | ----- | ----- | ----- |
+   CalliNGS-NF| easy  |   RNA-seq  | human |  _  | pipeline was not compatible with our test data |  yes   |   yes  |  yes  |  yes  |   easy  |  somatic  |
+
+
+ ### [h3avarcall](https://github.com/h3abionet/h3avarcall)
+ - This is a nextflow pipeline designed for Variant calling in human whole genome/exome sequencing data
+ -  it detects SNPs and Indels giving raw sequence reads (fastq files) as input
+ - This pipeline provides the best documentation which explains each step of variant calling and its importance
+ - We recommend [this pipelines's documentation](https://h3abionet.github.io/H3ABionet-SOPs/Variant-Calling) to understand variant calling steps
+ - This pipeline is resource intensive it requires 50GB memory 24 cpus to run the test data provided
+ - This pipeline could not pull the containers required to run it in the hpc
+ - We did not run this pipeline with our test data
+
+### Pipeline summary
+Pipeline | ease of use with test data | type of data | initially designed for |fast and easily scalable | use with variety of data | Dsl2 version | use of containers docker and singularity | regularly maintained and updated | scalable to the cloud |ease of use and following documentation| type of variants detected| 
+  ----- | ----- | ----- | ----- | ----- | ----- |  ----- | ----- | ----- | ----- | ----- | ----- |
+ h3avarcall | -  |  WGS /Exome sequencing data  | human |  _  | we didnot test it with our test data | no    |   yes |  no  |  no |  easy|germline  |
+  
+
  
  Pros | Cons 
  ------- | ----
