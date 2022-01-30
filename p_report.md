@@ -46,8 +46,10 @@ We tested the following pipelines:
    - [CalliNGS-NF](https://github.com/CRG-CNAG/CalliNGS-NF)
    - [h3avarcall](https://github.com/h3abionet/h3avarcall)
    -  [nf-core/viralrecon](https://github.com/nf-core/viralrecon)
-   -  [mbbu/variant-calling-pipeline](https://github.com/mbbu/variant-calling-pipeline)
+   -  [nf-core/rnavar](https://github.com/nf-core/rnavar)
+   -  [nf-core/vipr](https://github.com/nf-core/vipr)
    -  [variant-calling-pipeline-gatk4](https://github.com/gencorefacility/variant-calling-pipeline-gatk4)
+   -  [mbbu/variant-calling-pipeline](https://github.com/mbbu/variant-calling-pipeline)
 
 
 
@@ -114,7 +116,7 @@ Pipeline | ease of use with test data | type of input data | initially designed 
  - This pipeline could not pull the containers required to run it in the hpc
  - We did not run this pipeline with our test data
 
-### Pipeline summary
+### Summary
 Pipeline | ease of use with test data | type of data | initially designed for |fast and easily scalable | use with variety of data | Dsl2 version | use of containers docker and singularity | regularly maintained and updated | scalable to the cloud |ease of use and following documentation| type of variants detected| 
   ----- | ----- | ----- | ----- | ----- | ----- |  ----- | ----- | ----- | ----- | ----- | ----- |
  h3avarcall | -  |  WGS /Exome sequencing data  | human |  _  | we didnot test it with our test data | no    |   yes |  no  |  no |  easy|germline  |
@@ -123,7 +125,7 @@ Pipeline | ease of use with test data | type of data | initially designed for |f
  
  
               
- [nf-core/viralrecon](https://github.com/nf-core/viralrecon) 
+ ### [nf-core/viralrecon](https://github.com/nf-core/viralrecon) 
  - nf-core/viralrecon is a bioinformatics analysis pipeline used to perform assembly and intra-host/low-frequency variant calling for viral samples.
  - The pipeline supports both Illumina and Nanopore sequencing data.
  - This pipeline was specifically designed to analyze covid data
@@ -135,10 +137,21 @@ Pipeline | ease of use with test data | type of input data | initially designed 
   ----- | ----- | ----- | ----- | ----- | ----- |  ----- | ----- | ----- | ----- | ----- | ----- |
   nf-core/viralrecon | -  |  viral sequences | covid data|  _  | pipeline was not compatible with our test data |  -   |   yes  |  yes  |  yes  |   hard  | - |
 
+### [nf-core/rnavar](https://github.com/nf-core/rnavar)
+- nf-core/rnavar is a bioinformatics best-practice pipeline for RNA-Seq variant analysis.
+- This pipeline is currently in development and does not yet have any stable releases
+- For the above reason we did not test the pipeline
 
+
+
+
+### [nf-core/vipr](https://github.com/nf-core/vipr)
+- nf-core/vipr is a bioinformatics best-practice analysis pipeline for assembly and intrahost / low-frequency variant calling for viral samples.
+- This pipeline is archived and no longer in use
+- It has been replaced by nf-core/viralrecon
  
 
- [variant-calling-pipeline-gatk4](https://github.com/gencorefacility/variant-calling-pipeline-gatk4)    
+ ### [variant-calling-pipeline-gatk4](https://github.com/gencorefacility/variant-calling-pipeline-gatk4)    
  
  Pros | Cons   
  ----- | ------
