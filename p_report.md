@@ -73,43 +73,36 @@ We tested the following pipelines:
  - Sarek can also handle tumour / normal pairs and could include additional relapses.
   
   
+Pipeline | ease of use with test data | type of data | initially designed for |fast and easily scalable | use with variety of data | Dsl2 version | use of containers docker and singularity | regularly maintained and updated | scalable to the cloud |ease of use and following documentation| type of variants detected| 
+  ----- | ----- | ----- | ----- | ----- | ----- |  ----- | ----- | ----- | ----- | ----- | ----- |
+  NF-CORE SAREK | easy  |  WGS   | human and mouse |  _  | pipeline didnot work with our test data|  no    |   yes  |  yes  |  yes  |   hard  |  somatic and germline  |
   
   
-  
-  Pros | Cons
-  -------------- | ------------------------
-  Detailed documentation on how to use the pipeline | Limited information on how to create the input  ```TSV``` file, we encountered an erro of lack of files in the directories provided and now errors with row formating
-  The pipeline rans easily with the test dataset provided | There is quite more to do to run the pipeline with your own dataset
-  The pipeline was designed initially for Human and Mouse WGS data analysis, hence more inclined to analysing verterbrate sequence data | The default purpose  makes it tricky to use in analyzing invertebrate data, for our case pathogen and is=nsect data
-  
-  **NOTE:** ```nf-core pipelines involve some good work done to ensure ease of reproduction. This is supported by extensive documentation of the work and a big community connected via a slack channel where you can get most if not all of the possible errors with the pipeline attended to. Also, the pipeline is regularly maintained, thus you are sure everything is up to date.```    
-  
-  **WARNING:** ```The above note is based on the extensive reading and search we performed as far as the pipeline is concerned. However, we never got to run the pipeline on our dataset, not so much to report on the power, functionality among others.```
-  
- [persistent error with sarek](https://github.com/mbbu/Assessing-Variant-Calling-Pipelines/blob/main/sarek%20persistent%20error.png)
-  
----------------------------------------------------------
+ However, we never got to run the pipeline on our dataset, not so much to report on the power, functionality among others.```
+ 
   
   
-  [CalliNGS-NF](https://github.com/CRG-CNAG/CalliNGS-NF)     
+ ### [CalliNGS-NF](https://github.com/CRG-CNAG/CalliNGS-NF) 
   
-  Pros | Cons 
-  ------- | ----
-  Works effortlessly with the test dataset, with expected output files | The pipeline however keeps throwing errors of ```incompatible contigs``` on multiple test daataset, that however runs well on other pipelines
-  Designed for variant analysis of RNAseq data | Might not be a great choice for use with WGS data for that matter
+- This is a Nextflow pipeline for Variant Calling Analysis with NGS RNA-Seq data based on GATK best practices.
   
-  
-  
-  **NOTE:** ```Based on the initial purpose of the pipeline, we can hypothetically recommend use with RNAseq data rather than WGS data```
-  
-  **WANRNING:** ```We encountered errors trying to run the pipelien on our own dataset which is WGS data. We intended to compare the output varinat files with the successful pipelien, but due to the peristent error, we could not assertain its power. 
-We intend to try it on an RNAseq data for better reporting.```
+- The RNA sequencing (RNA-seq) data, in additional to the expression information, can be used to obtain somatic variants present in the genes of the analysed organism. 
+- The CalliNGS-NF pipeline processes RNAseq data to obtain small variants(SNVs), single polymorphisms (SNPs) and small INDELs (insertions, deletions). 
+- The pipeline is an implementation of the GATK best practices for variant calling on RNAseq
 
-[CalliNGS persistent error](https://github.com/mbbu/Assessing-Variant-Calling-Pipelines/blob/main/CalliNGS%20error.png)
-  
------------------------------------------------------------------
-  
- [h3avarcall](https://github.com/h3abionet/h3avarcall)    
+
+Pipeline | ease of use with test data | type of input data | initially designed for |fast and easily scalable | use with variety of data | Dsl2 version | use of containers docker and singularity | regularly maintained and updated | scalable to the cloud |ease of use and following documentation| type of variants detected| 
+  ----- | ----- | ----- | ----- | ----- | ----- |  ----- | ----- | ----- | ----- | ----- | ----- |
+   CalliNGS-NF| easy  |   RNA-seq  | human |  _  | pipeline was not compatible with our test data |  yes   |   yes  |  yes  |  yes  |   easy  |  somatic  |
+
+- This pipeline was easy to use and documentation was short and easy to follow
+
+- Due to the limited time we didnot test RNA-seq pipelines
+
+- We recommend this pipeline for further analysis with RNA-seq data
+
+
+ ### [h3avarcall](https://github.com/h3abionet/h3avarcall)    
  
  Pros | Cons 
  ------- | ----
@@ -206,7 +199,7 @@ We intend to try it on an RNAseq data for better reporting.```
   
   
   
-  ## RECOMMENDATIONS 
+  ## RECOMMENDATIONS
   
   ## REFERENCES
 
