@@ -121,28 +121,23 @@ Pipeline | ease of use with test data | type of data | initially designed for |f
   
 
  
- Pros | Cons 
- ------- | ----
- Great documentation with an additional tutorial for the working of the pipeline | The pipeline container is a huge one and requires a machine with higher power
- Designed for human WGS data for the analysis of variants | Default parameters are human data, hence requires modification
  
+              
+ [nf-core/viralrecon](https://github.com/nf-core/viralrecon) 
+ - nf-core/viralrecon is a bioinformatics analysis pipeline used to perform assembly and intra-host/low-frequency variant calling for viral samples.
+ - The pipeline supports both Illumina and Nanopore sequencing data.
+ - This pipeline was specifically designed to analyze covid data
+ - We recommend further testing of this pipeline with covid data 
+ - Documentation was not easy to follow and comprehend
  
-**NOTE:** ```We could not completely run the pipeline even on the test dataset, due to the huge computational power requirement of the image```
+ ### Summary 
+Pipeline | ease of use with test data | type of input data | initially designed for |fast and easily scalable | use with variety of data | Dsl2 version | use of containers docker and singularity | regularly maintained and updated | scalable to the cloud |ease of use and following documentation| type of variants detected| 
+  ----- | ----- | ----- | ----- | ----- | ----- |  ----- | ----- | ----- | ----- | ----- | ----- |
+  nf-core/viralrecon | -  |  viral sequences | covid data|  _  | pipeline was not compatible with our test data |  -   |   yes  |  yes  |  yes  |   hard  | - |
 
-**WARNING:** ```Due to the huge computational rewuirement, we recommend running the work on a cluster```
-              ```We are working on exploring more avenues for better computational power to test the pipeline in future.```
-              
------------------------------------------------------
-              
- [nf-core/viralrecon](https://github.com/nf-core/viralrecon)    
+
  
- Pros | Cons 
- ----------- | --------------
- Designed initially for variant analysis of RNAseq data | In most cases it wll not work well for WGS data
- 
- ------------------------
- 
- 
+
  [variant-calling-pipeline-gatk4](https://github.com/gencorefacility/variant-calling-pipeline-gatk4)    
  
  Pros | Cons   
