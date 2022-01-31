@@ -13,14 +13,14 @@ This is a report of my internship journey in the EANBiT Bioinformatics and Incub
 
 ## Training and skills learnt
  ### Purpose Roadmap 
-In the begining of the internship i learnt how to write a [purpose roadmap](url) to outline what i hoped to achieve to by the end of the four months of internship. This has kept me motivated and  focused on my goals. In retrospect, i have achieved most of the things that i had purposed to do.
+In the begining of the internship i learnt how to write a [purpose roadmap](https://github.com/Wangari-Joyce/Joyce_bioinformatics_internship/issues/4) to outline what i hoped to achieve to by the end of the four months of internship. This has kept me motivated and  focused on my goals. In retrospect, i have achieved most of the things that i had purposed to do.
 
 
 
  ### Using Git and Github
 Git is a version control system that helps keep track of history of the the things one is working on
 GitHub is a web based service for version control and online collaboration.
-I used Git and GitHub in creating and managing our projects, documenting codes, writing to do lists and working collaboratively in the projects. [Here](url) is a list of activities that i was involved in during the four months.
+I used Git and GitHub in creating and managing our projects, documenting codes, writing to do lists and working collaboratively in the projects. [Here](https://github.com/Wangari-Joyce/Joyce_bioinformatics_internship/projects/3?fullscreen=true) is a list of activities that i was involved in during the four months.
 
 
 
@@ -70,7 +70,7 @@ I learnt various methods for constructing phylogenetic trees such as UPGMA, neig
 
 ### Reproducing a scientific paper
 We reproduced a scientfic paper: Global Outbreaks and spread of a chikungunya virus variant carrying mutations which may increase fitness for Aedes aegypti: Revelations from the 2016 Mandera Kenya Outbreak. 
-[Here](url) is link to the repository for this work
+[Here](https://github.com/Wangari-Joyce/CHIKV_PROJECT) is link to the repository for this work
 i learnt how to use different phylogenetic tools such as tempest, mafft, phyml and raxml
 
 ### Journal club presentation
@@ -81,7 +81,7 @@ This has had me develop a culture of reading scientific papers, and also enhance
 Our mini-project was focused on assessing different variant calling pipelines identify great ones and expand where there are gaps.
 We assessed the different pipelines and were to to automate fully the mbbu variant calling pipeline.
 This project helped to understand Nextflow a workflow language, to use bash the commandline language extensively, to use the HPC, to use various bioinformatics tools, to collaborate effectively, it also helped me improve my communication and presentation skills.
-[Here](url) is link to the repository for this mini-project
+[Here](https://github.com/mbbu/Assessing-Variant-Calling-Pipelines) is link to the repository for this mini-project
 
 
 ### Soft skills 
